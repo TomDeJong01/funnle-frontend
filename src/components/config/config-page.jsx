@@ -1,10 +1,11 @@
 import React from "react";
-import Home from "../home/home";
 
-class Config extends React.Component {
+class ConfigPage extends React.Component {
     render() {
-        return null;
+        return (
+            <h1>todo</h1>
+        )
     }
 }
 
-export default Config;
+export default ConfigPage;

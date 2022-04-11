@@ -1,3 +1,21 @@
+.home {
+  width:90%;
+  height: 100%;
+  background: #EEEEEE;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: auto;
+  margin-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+  .home-body {
+    padding-top: 200px;
+    .home-card {
+      //background: red;
+    }
+  }
+}
+
+
 .card-wrapper {
   width:80%;
   height: 100%;
