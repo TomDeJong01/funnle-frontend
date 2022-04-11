@@ -1,0 +1,51 @@
+.card-wrapper {
+  width:80%;
+  height: 100%;
+  background: #EEEEEE;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: auto;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+  .home-row {
+    h1 {
+      padding:20px 20px 0px;
+    }
+  }
+}
+
+.home-row-shows {
+  flex-direction: row;
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+  .show-card {
+    flex: 1;
+    height: 200px;
+    width: 200px;
+    background:#000000;
+    margin: 20px;
+  }
+}
+
+.small-show-card-wrapper {
+  //margin: 26px;
+  width: 268px;
+  .img-wrapper {
+    //margin: 20px;
+    text-align: center;
+    img {
+      width:182px;
+      height:268px;
+    }
+  }
+  .name {
+    //text-align: center;
+    margin-left: 40px;
+  }
+  .description {
+    //text-align: center;
+    margin-left: 40px;
+    margin-right: 20px;
+    white-space: initial;
+  }
+}
